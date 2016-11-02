@@ -1,0 +1,106 @@
+﻿Build started 10/31/2016 12:50:20 PM.
+     1>Project "C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\qip.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         MOC Blur.h
+         MOC Clip.h
+         MOC Contrast.h
+         MOC Convolve.h
+         MOC Dummy.h
+         MOC ErrDiffusion.h
+         MOC Gamma.h
+         MOC HistoMatch.h
+         MOC HistoStretch.h
+         MOC MainWindow.h
+         MOC Median.h
+         MOC Quantize.h
+         MOC Sharpen.h
+         MOC Threshold.h
+         MOC qcustomplot.h
+         RCC qip.qrc
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IIP\win\header /IC:\Qt5.7.0\5.7\msvc2013_64\include /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtPrintSupport /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtOpenGL /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtGui /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtANGLE /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtCore /Irelease\.moc /I"C:\Qt5.7.0\5.7\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_PRINTSUPPORT_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"release\.obj\\" /Fd"release\.obj\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 Blur.cpp Clip.cpp Contrast.cpp Convolve.cpp Dummy.cpp ErrDiffusion.cpp GLWidget.cpp Gamma.cpp HistoMatch.cpp HistoStretch.cpp ImageFilter.cpp MainWindow.cpp Median.cpp Quantize.cpp Sharpen.cpp Threshold.cpp main.cpp qcustomplot.cpp release\.moc\moc_Blur.cpp release\.moc\moc_Clip.cpp release\.moc\moc_Contrast.cpp release\.moc\moc_Convolve.cpp release\.moc\moc_Dummy.cpp release\.moc\moc_ErrDiffusion.cpp release\.moc\moc_Gamma.cpp release\.moc\moc_HistoMatch.cpp release\.moc\moc_HistoStretch.cpp release\.moc\moc_MainWindow.cpp release\.moc\moc_Median.cpp release\.moc\moc_Quantize.cpp release\.moc\moc_Sharpen.cpp release\.moc\moc_Threshold.cpp release\.moc\moc_qcustomplot.cpp release\qrc_qip.cpp
+         Blur.cpp
+         Clip.cpp
+         Contrast.cpp
+         Convolve.cpp
+     1>Blur.cpp(129): warning C4100: 'h' : unreferenced formal parameter
+     1>Blur.cpp(129): warning C4100: 'w' : unreferenced formal parameter
+     1>Convolve.cpp(186): warning C4100: 'pass' : unreferenced formal parameter
+         Dummy.cpp
+         ErrDiffusion.cpp
+         GLWidget.cpp
+         Gamma.cpp
+     1>ErrDiffusion.cpp(138): warning C4100: 'gamma' : unreferenced formal parameter
+     1>ErrDiffusion.cpp(138): warning C4100: 'serpentine' : unreferenced formal parameter
+     1>ErrDiffusion.cpp(138): warning C4100: 'method' : unreferenced formal parameter
+         HistoMatch.cpp
+         HistoStretch.cpp
+         ImageFilter.cpp
+         MainWindow.cpp
+         Median.cpp
+         Quantize.cpp
+         Sharpen.cpp
+         Threshold.cpp
+     1>Median.cpp(142): warning C4100: 'sz' : unreferenced formal parameter
+     1>Median.cpp(226): warning C4100: 'pass' : unreferenced formal parameter
+     1>Sharpen.cpp(128): warning C4100: 'factor' : unreferenced formal parameter
+     1>Sharpen.cpp(128): warning C4100: 'size' : unreferenced formal parameter
+         main.cpp
+         qcustomplot.cpp
+         moc_Blur.cpp
+         moc_Clip.cpp
+         moc_Contrast.cpp
+         moc_Convolve.cpp
+         moc_Dummy.cpp
+         moc_ErrDiffusion.cpp
+         moc_Gamma.cpp
+         moc_HistoMatch.cpp
+         moc_HistoStretch.cpp
+         moc_MainWindow.cpp
+         moc_Median.cpp
+         moc_Quantize.cpp
+         moc_Sharpen.cpp
+         moc_Threshold.cpp
+         moc_qcustomplot.cpp
+         qrc_qip.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\qip.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt5.7.0\5.7\msvc2013_64\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:IP\win\lib C:\Qt5.7.0\5.7\msvc2013_64\lib\qtmain.lib shell32.lib IP.lib opengl32.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5PrintSupport.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5OpenGL.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Widgets.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Gui.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\qip.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" release\.obj\Blur.obj
+         release\.obj\Clip.obj
+         release\.obj\Contrast.obj
+         release\.obj\Convolve.obj
+         release\.obj\Dummy.obj
+         release\.obj\ErrDiffusion.obj
+         release\.obj\GLWidget.obj
+         release\.obj\Gamma.obj
+         release\.obj\HistoMatch.obj
+         release\.obj\HistoStretch.obj
+         release\.obj\ImageFilter.obj
+         release\.obj\MainWindow.obj
+         release\.obj\Median.obj
+         release\.obj\Quantize.obj
+         release\.obj\Sharpen.obj
+         release\.obj\Threshold.obj
+         release\.obj\main.obj
+         release\.obj\qcustomplot.obj
+         release\.obj\moc_Blur.obj
+         release\.obj\moc_Clip.obj
+         release\.obj\moc_Contrast.obj
+         release\.obj\moc_Convolve.obj
+         release\.obj\moc_Dummy.obj
+         release\.obj\moc_ErrDiffusion.obj
+         release\.obj\moc_Gamma.obj
+         release\.obj\moc_HistoMatch.obj
+         release\.obj\moc_HistoStretch.obj
+         release\.obj\moc_MainWindow.obj
+         release\.obj\moc_Median.obj
+         release\.obj\moc_Quantize.obj
+         release\.obj\moc_Sharpen.obj
+         release\.obj\moc_Threshold.obj
+         release\.obj\moc_qcustomplot.obj
+         release\.obj\qrc_qip.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'IP.lib'
+     1>Done Building Project "C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\qip.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:03:58.45

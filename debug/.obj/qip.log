@@ -1,0 +1,124 @@
+﻿Build started 11/2/2016 12:23:08 PM.
+     1>Project "C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\qip.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         MOC Blur.h
+         MOC BoxFilter.h
+         MOC Clip.h
+         MOC Contrast.h
+         MOC Convolve.h
+         MOC Dummy.h
+         MOC ErrDiffusion.h
+         MOC Gamma.h
+         MOC HistoMatch.h
+         MOC HistoStretch.h
+         MOC MainWindow.h
+         MOC Median.h
+         MOC Quantize.h
+         MOC Sharpen.h
+         MOC Threshold.h
+         MOC qcustomplot.h
+         RCC qip.qrc
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IIP\win\header /IC:\Qt5.7.0\5.7\msvc2013_64\include /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtPrintSupport /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtOpenGL /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtGui /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtANGLE /IC:\Qt5.7.0\5.7\msvc2013_64\include\QtCore /Idebug\.moc /I"C:\Qt5.7.0\5.7\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_PRINTSUPPORT_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"debug\.obj\\" /Fd"debug\.obj\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 Blur.cpp BoxFilter.cpp Clip.cpp Contrast.cpp Convolve.cpp Dummy.cpp ErrDiffusion.cpp GLWidget.cpp Gamma.cpp HistoMatch.cpp HistoStretch.cpp ImageFilter.cpp MainWindow.cpp Median.cpp Quantize.cpp Sharpen.cpp Threshold.cpp main.cpp qcustomplot.cpp debug\.moc\moc_Blur.cpp debug\.moc\moc_BoxFilter.cpp debug\.moc\moc_Clip.cpp debug\.moc\moc_Contrast.cpp debug\.moc\moc_Convolve.cpp debug\.moc\moc_Dummy.cpp debug\.moc\moc_ErrDiffusion.cpp debug\.moc\moc_Gamma.cpp debug\.moc\moc_HistoMatch.cpp debug\.moc\moc_HistoStretch.cpp debug\.moc\moc_MainWindow.cpp debug\.moc\moc_Median.cpp debug\.moc\moc_Quantize.cpp debug\.moc\moc_Sharpen.cpp debug\.moc\moc_Threshold.cpp debug\.moc\moc_qcustomplot.cpp debug\qrc_qip.cpp
+         Blur.cpp
+         BoxFilter.cpp
+         Clip.cpp
+         Contrast.cpp
+     1>BoxFilter.cpp(134): warning C4100: 'h' : unreferenced formal parameter
+     1>BoxFilter.cpp(134): warning C4100: 'w' : unreferenced formal parameter
+     1>Blur.cpp(129): warning C4100: 'h' : unreferenced formal parameter
+     1>Blur.cpp(129): warning C4100: 'w' : unreferenced formal parameter
+     1>BoxFilter.cpp(276): warning C4100: 'pass' : unreferenced formal parameter
+         Convolve.cpp
+         Dummy.cpp
+         ErrDiffusion.cpp
+         GLWidget.cpp
+     1>Convolve.cpp(186): warning C4100: 'pass' : unreferenced formal parameter
+     1>ErrDiffusion.cpp(138): warning C4100: 'gamma' : unreferenced formal parameter
+     1>ErrDiffusion.cpp(138): warning C4100: 'serpentine' : unreferenced formal parameter
+     1>ErrDiffusion.cpp(138): warning C4100: 'method' : unreferenced formal parameter
+         Gamma.cpp
+         HistoMatch.cpp
+         HistoStretch.cpp
+         ImageFilter.cpp
+         MainWindow.cpp
+         Median.cpp
+         Quantize.cpp
+         Sharpen.cpp
+     1>Median.cpp(142): warning C4100: 'sz' : unreferenced formal parameter
+     1>Median.cpp(226): warning C4100: 'pass' : unreferenced formal parameter
+     1>Sharpen.cpp(128): warning C4100: 'factor' : unreferenced formal parameter
+     1>Sharpen.cpp(128): warning C4100: 'size' : unreferenced formal parameter
+         Threshold.cpp
+         main.cpp
+         qcustomplot.cpp
+         moc_Blur.cpp
+         moc_BoxFilter.cpp
+         moc_Clip.cpp
+         moc_Contrast.cpp
+         moc_Convolve.cpp
+         moc_Dummy.cpp
+         moc_ErrDiffusion.cpp
+         moc_Gamma.cpp
+         moc_HistoMatch.cpp
+         moc_HistoStretch.cpp
+         moc_MainWindow.cpp
+         moc_Median.cpp
+         moc_Quantize.cpp
+         moc_Sharpen.cpp
+         moc_Threshold.cpp
+         moc_qcustomplot.cpp
+         qrc_qip.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\qip.exe" /NOLOGO /LIBPATH:C:\Qt5.7.0\5.7\msvc2013_64\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:IP\win\lib C:\Qt5.7.0\5.7\msvc2013_64\lib\qtmaind.lib shell32.lib IP\win\lib\IP_d.lib opengl32.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5PrintSupportd.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5OpenGLd.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Guid.lib C:\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\qip.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\.obj\Blur.obj
+         debug\.obj\BoxFilter.obj
+         debug\.obj\Clip.obj
+         debug\.obj\Contrast.obj
+         debug\.obj\Convolve.obj
+         debug\.obj\Dummy.obj
+         debug\.obj\ErrDiffusion.obj
+         debug\.obj\GLWidget.obj
+         debug\.obj\Gamma.obj
+         debug\.obj\HistoMatch.obj
+         debug\.obj\HistoStretch.obj
+         debug\.obj\ImageFilter.obj
+         debug\.obj\MainWindow.obj
+         debug\.obj\Median.obj
+         debug\.obj\Quantize.obj
+         debug\.obj\Sharpen.obj
+         debug\.obj\Threshold.obj
+         debug\.obj\main.obj
+         debug\.obj\qcustomplot.obj
+         debug\.obj\moc_Blur.obj
+         debug\.obj\moc_BoxFilter.obj
+         debug\.obj\moc_Clip.obj
+         debug\.obj\moc_Contrast.obj
+         debug\.obj\moc_Convolve.obj
+         debug\.obj\moc_Dummy.obj
+         debug\.obj\moc_ErrDiffusion.obj
+         debug\.obj\moc_Gamma.obj
+         debug\.obj\moc_HistoMatch.obj
+         debug\.obj\moc_HistoStretch.obj
+         debug\.obj\moc_MainWindow.obj
+         debug\.obj\moc_Median.obj
+         debug\.obj\moc_Quantize.obj
+         debug\.obj\moc_Sharpen.obj
+         debug\.obj\moc_Threshold.obj
+         debug\.obj\moc_qcustomplot.obj
+         debug\.obj\qrc_qip.obj
+     1>IP_d.lib(IPcastimg.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPcastimg.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPcastmem.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPcastmem.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPcolorconv.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPcolorconv.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPglobal.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPglobal.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPhisto.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPhisto.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPio.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPio.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPmmch.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPmmch.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPmmimg.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPmmimg.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPtoUI.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPtoUI.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+     1>IP_d.lib(IPutil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'IP_d.lib(IPutil.obj)' or at 'C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\vc120.pdb'; linking object as if no debug info
+         qip.vcxproj -> C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\debug\qip.exe
+     1>Done Building Project "C:\Users\Alex\Documents\ImageProcessing\Capstone2\qip2_GPU\qip2_GPU\qip.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:07.65
